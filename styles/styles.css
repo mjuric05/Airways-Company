@@ -1,0 +1,320 @@
+.mainCover img{
+    width: 99vw;
+    max-height: 500px;
+    justify-content: center;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: #066dd3;
+}
+
+.mainCover .overlayWelcomeText{
+    position: absolute;
+    top: 20%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #066dd3; 
+    padding: 10px 20px; 
+    font-size: 100px; 
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .about{
+    position: relative;
+    margin-right: 20px;
+}
+
+.navbar .information{
+    position: relative;
+    margin-right: 20px;
+}
+
+.about{
+    position: absolute;
+    background-color: #066dd3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);   
+}
+
+.about:hover{
+    background-color: #030c6f;
+}
+
+.information{
+    position: absolute;
+    background-color: #066dd3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.information:hover{
+    background-color: #030c6f;
+}
+
+.contact{
+    position: absolute;
+    background-color: #066dd3;
+    position: relative; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.contact:hover{
+    background-color: #030c6f;
+}
+
+.navbar .about .dropdown{
+    display: none;
+    position: absolute;
+    background-color: #066dd3;
+    min-width: 160px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    top: 100%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.navbar .about .dropdown p{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    margin: 0; 
+}
+
+.navbar .about:hover .dropdown{
+    display: block;
+}
+
+.navbar .information .dropdown{
+    display: none;
+    position: absolute;
+    background-color: #066dd3;
+    min-width: 160px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    top: 100%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.navbar .information .dropdown p{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    margin: 0;     
+}
+
+.navbar .information:hover .dropdown{
+    display: block;
+}
+
+.navbar .contact .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #066dd3;
+    min-width: 160px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar .contact:hover .dropdown {
+    display: block;
+}
+
+.navbar .contact .dropdown p{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    margin: 0;   
+}
+
+.navbar .contact:hover .dropdown {
+    display: block;
+}
+
+.ticketDiv{
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    outline-color: black;
+    flex-direction: column;
+}
+
+.zagrebSplit, .splitZagreb, .splitRome {
+    flex: 1;
+    text-align: center;
+    padding: 60px;
+    border: 1px solid #ccc; 
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border-color: #030c6f;
+    background-color: #066dd3;
+    border-width: 5px;
+}
+
+.imageOfTrip img{
+    height: 250px;
+    width: 250px;
+    margin-left: -1200px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.tripInformation{
+    padding: 20px;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid #030c6f;
+    margin-top: -240px;
+    margin-left: 250px;
+}
+
+.ticketPriceInformation{
+    padding: 20px;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid #030c6f;
+    margin-top: -200px;
+    margin-left: 650px;
+}
+.totalTicketPrice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -220px;
+    margin-left: 950px;
+}
+
+.totalSuitcasePrice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 950px;
+}
+#counter1,
+#result1,
+#counter3,
+#result3,
+#counter5,
+#result5 {
+    margin-left: 20px;
+}
+
+#counter2,
+#result2,
+#counter4,
+#result4,
+#counter6,
+#result6 {
+    margin-left: 20px;
+}
+
+.grandTotal{
+    height: 400px;
+    width: 60%;
+    text-align: center;
+    background-color: #2980b9;
+    border: 5px solid #030c6f;
+    border-radius: 10px;
+}
+
+.grandTotal h3{
+    width: fit-content;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.counter-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #2980b9; 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2c3e50; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.count {
+    font-size: 18px;
+}
+
+.result-container{
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+.value{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.totalPriceOfTrip{
+    display: inline-block;
+    width: 60px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.payment{
+    position: absolute;
+    background-color: #066dd3;
+    width: fit-content;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    left: 500px;
+    top: 2178px;
+}
+
+.payment:hover{
+    background-color: #030c6f;
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livaja Airways</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="mainCover">
+        <img src="Images/CoverImage.jpg">
+        <div class="overlayWelcomeText">
+            Livaja Airways
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <div class="navbar">
+                <button class="about">About us
+                    <div class="dropdown" id="aboutDropdown">
+                        <p>Name: Ivan</p>
+                        <p>Surname: Livaja</p>
+                        <p>Age: 21</p>
+                    </div>
+                </button>
+                <button class="information">Your information
+                    <div class="dropdown" id="informationDropdown">
+                        <p>Name: User</p>
+                        <p>Surname: User_Surname</p>
+                        <p>Age: User_Age</p>
+                    </div>                    
+                </button>
+                <button class="contact">Contact us
+                    <div class="dropdown" id="contactDropdown">
+                        <p>E-mail: ilivaj00@fesb.hr</p>
+                        <p>Phone Number: 012 345 6789</p>
+                        <p>WebPage: <a href="https://moodle.srce.hr">Project Page</a></p>
+                    </div>    
+                </button>
+            </div>
+        </ul>
+    </nav>
+    <div class="ticketDiv">
+        <div class="zagrebSplit">
+            <div class="imageOfTrip">
+                <img src="Images/ZagrebSplit.png">
+            </div>
+            <div class="tripInformation">
+                <h2>TRIP: From Zagreb To Split</h2>
+                <h3>Departure: Zagreb Airport</h3>
+                <h3>Arrival: Split Airport</h3>
+                <h3>Date and Time: 13.04.2024 @ 10:30 AM</h3>
+            </div>
+            <div class="ticketPriceInformation">
+                <h3>Ticket Price: 200$ per Person</h3>
+                <h3>Suitcase Price: 20$ per Suitcase</h3>
+            </div>
+            <div class="totalTicketPrice">
+                <h2>Total tickets</h2>
+                <div class="counter-container" id="counter1">
+                    <button class="decrement">-</button>
+                    <span class="count">0</span>
+                    <button class="increment">+</button>
+                </div>
+                <div class="result-container" id="result1">
+                    <span class="value">Total ticket price: 0$</span>
+                </div>
+            </div>
+            <div class="totalSuitcasePrice">
+                <h2>Total suitcases</h2>
+                <div class="counter-container" id="counter2">
+                    <button class="decrement">-</button>
+                    <span class="count">0</span>
+                    <button class="increment">+</button>
+                </div>
+                <div class="result-container" id="result2">
+                    <span class="value">Total suitcase price: 0$</span>
+                </div>
+            </div>
+        </div>
+        <div class="splitZagreb">
+            <div class="imageOfTrip">
+                <img src="Images/SplitZagreb.png">
+            </div>
+            <div class="tripInformation">
+                <h2>TRIP: From Split To Zagreb</h2>
+                <h3>Departure: Split Airport</h3>
+                <h3>Arrival: Zagreb Airport</h3>
+                <h3>Date and Time: 14.04.2024 @ 11:30 AM</h3>
+            </div>
+            <div class="ticketPriceInformation">
+                <h3>Ticket Price: 200$ per Person</h3>
+                <h3>Suitcase Price: 20$ per Suitcase</h3>
+            </div>
+            <div class="totalTicketPrice">
+                <h2>Total tickets</h2>
+                <div class="counter-container" id="counter3">
+                    <button class="decrement">-</button>
+                    <span class="count">0</span>
+                    <button class="increment">+</button>
+                </div>
+                <div class="result-container" id="result3">
+                    <span class="value">Total ticket price: 0$</span>
+                </div>
+            </div>
+            <div class="totalSuitcasePrice">
+                <h2>Total suitcases</h2>
+                <div class="counter-container" id="counter4">
+                    <button class="decrement">-</button>
+                    <span class="count">0</span>
+                    <button class="increment">+</button>
+                </div>
+                <div class="result-container" id="result4">
+                    <span class="value">Total suitcase price: 0$</span>
+                </div>
+            </div>
+        </div>
+        <div class="splitRome">
+            <div class="imageOfTrip">
+                <img src="Images/SplitRome.png">
+            </div>
+            <div class="tripInformation">
+                <h2>TRIP: From Split To Rome</h2>
+                <h3>Departure: Split Airport</h3>
+                <h3>Arrival: Rome Airport</h3>
+                <h3>Date and Time: 15.04.2024 @ 9:30 AM</h3>
+            </div>
+            <div class="ticketPriceInformation">
+                <h3>Ticket Price: 250$ per Person</h3>
+                <h3>Suitcase Price: 25$ per Suitcase</h3>
+            </div>
+            <div class="totalTicketPrice">
+                <h2>Total tickets</h2>
+                <div class="counter-container" id="counter5">
+                    <button class="decrement">-</button>
+                    <span class="count">0</span>
+                    <button class="increment">+</button>
+                </div>
+                <div class="result-container" id="result5">
+                    <span class="value">Total ticket price: 0$</span>
+                </div>
+            </div>
+            <div class="totalSuitcasePrice">
+                <h2>Total suitcases</h2>
+                <div class="counter-container" id="counter6">
+                    <button class="decrement">-</button>
+                    <span class="count">0</span>
+                    <button class="increment">+</button>
+                </div>
+                <div class="result-container" id="result6">
+                    <span class="value">Total suitcase price: 0$</span>
+                </div>
+            </div>
+        </div>
+        <div class="grandTotal">
+            <h3>Total price for trip: <span class="totalPriceOfTrip">0$</span> </h3>          
+            <button class="payment">Proceed to payment</button>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
